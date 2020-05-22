@@ -37,6 +37,5 @@ print(mundo)
 hashtag = "#coronavirus #corona #covid19 #coronavirusbrasil"
 
 api = getCredentials('twitter')
-update = api.update_status(brasil + "\n" + mundo )
 update = api.update_with_media("world.jpg", brasil + "\n" + mundo + "\n" + hashtag )
 print(update)
